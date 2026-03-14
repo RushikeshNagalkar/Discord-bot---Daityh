@@ -5,3 +5,4 @@ dist/
 build/
 npm-debug.log
 mybot.js
+package.json package-lock.json
