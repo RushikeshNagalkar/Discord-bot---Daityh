@@ -1,6 +1,6 @@
 # Node modules
 node_modules/
-bot_python/
+
 
 # Environment files
 .env
@@ -18,3 +18,13 @@ mybot.js
 # Ignore package files (though usually not recommended)
 package.json
 package-lock.json
+
+# Ignore Python virtual environment
+venv/
+
+# Ignore environment variables file
+.env
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
