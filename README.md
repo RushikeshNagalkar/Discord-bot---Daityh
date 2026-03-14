@@ -7,12 +7,12 @@
 Starting with Python env :
 
 
-1. Inside folder, run cmd "python -m venv venv" (Python way to create a virtual environment)
+1. Inside the folder, run cmd "python -m venv venv" (Python way to create a virtual environment)
 #  You should see a new folder called venv. Inside it, there are several subfolders
 
 2. Activate the Virtual Environment run cmd "venv\Scripts\activate."
 # Before installing anything, you need to activate it so Python uses this isolated environment.
-# After activation your cmd should change to something like this: (venv) C:\E_Drive\Discord-bot---Daityh\bot_python>
+# After activation, your cmd should change to something like this: (venv) C:\E_Drive\Discord-bot---Daityh\bot_python>
 
 3. Step After Activation: Now you can install the Discord library safely, run in cmd "pip install discord.py python-dotenv."
 # discord.py → Makes your bot talk to Discord.
@@ -24,7 +24,7 @@ Starting with Python env :
 
 5. Step After .env: Create bot.py and add your code to it
 
-6. To activate the bot in cmd run "python bot.py"
+6. To activate the bot in cmd run "python bot.py."
 
 
 Fixing ModuleNotFoundError: No module named 'discord' in Windows venv
