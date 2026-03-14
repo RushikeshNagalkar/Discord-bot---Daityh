@@ -7,14 +7,14 @@
 Starting with Python env :
 
 
-1. Inside folder run cmd "python -m venv venv" (Python way to create a virtual environment,)
-#  you should see a new folder called venv. Inside it, there are several subfolders
+1. Inside folder, run cmd "python -m venv venv" (Python way to create a virtual environment)
+#  You should see a new folder called venv. Inside it, there are several subfolders
 
-2.Activate the Virtual Environment run cmd "venv\Scripts\activate"
+2. Activate the Virtual Environment run cmd "venv\Scripts\activate."
 # Before installing anything, you need to activate it so Python uses this isolated environment.
 # After activation your cmd should change to something like this: (venv) C:\E_Drive\Discord-bot---Daityh\bot_python>
 
-3.Step After Activation : Now you can install the Discord library safely run in cmd "pip install discord.py python-dotenv"
+3. Step After Activation: Now you can install the Discord library safely, run in cmd "pip install discord.py python-dotenv."
 # discord.py → Makes your bot talk to Discord.
 # python-dotenv → Lets you store your bot token safely in a .env file instead of putting it in the code.
 
@@ -22,7 +22,7 @@ Starting with Python env :
 # Replace your_bot_token_here with the token from your bot application.
 # Reason: Keeps your token secret so it’s not directly in the code.
 
-5.Step After .env: Create bot.py and add your codes into it
+5. Step After .env: Create bot.py and add your code to it
 
 6. To activate the bot in cmd run "python bot.py"
 
@@ -35,7 +35,7 @@ ISSUE:
 
 STEPS TO FIX:
 
-1. Check if virtual environment is active
+1. Check if the virtual environment is active
    - Terminal should show (venv) at the start of the prompt:
      (venv) C:\E_Drive\Discord-bot---Daityh\bot_python>
 
@@ -62,7 +62,7 @@ STEPS TO FIX:
      python bot.py
    - Terminal should show:
      Bot is online as YourBotName
-   - Then test in Discord with a command like !hello
+   - Then test in Discord with a command like "!hello."
 
 COMMON CAUSES:
 - Virtual environment not activated
