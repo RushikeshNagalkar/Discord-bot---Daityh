@@ -1,8 +1,19 @@
+# Node modules
 node_modules/
-node_modules/
+
+# Environment files
 .env
+
+# Build directories
 dist/
 build/
+
+# Logs
 npm-debug.log
+
+# Optional: ignore bot script
 mybot.js
-package.json package-lock.json
+
+# Ignore package files (though usually not recommended)
+package.json
+package-lock.json
